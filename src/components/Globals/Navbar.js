@@ -31,10 +31,9 @@ export default class Navbar extends Component {
           css: "collapse navbar-collapse show",
         })
   }
-
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="logo" />
           {/* {https://www.iconfinder.com/icons/185113/coffee_streamline_icon
